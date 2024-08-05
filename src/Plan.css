@@ -1,0 +1,111 @@
+/* Plan.css */
+.App {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.plan {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+  width: 300px;
+  display: inline-block;
+  vertical-align: top;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background: linear-gradient(135deg, #f6f8f9, #eaeef1);
+  overflow: hidden;
+}
+
+.plan:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.plan h2 {
+  color: #333;
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.plan h2 .icon {
+  margin-right: 10px;
+  width: 1.5em;
+  height: 1.5em;
+  fill: #007BFF;
+}
+
+.plan .price {
+  font-size: 1.4em;
+  margin: 10px 0;
+  color: #007BFF;
+  font-weight: bold;
+  position: relative;
+  transition: color 0.3s ease;
+  display: flex;
+  align-items: center;
+}
+
+.plan .price .icon {
+  margin-right: 5px;
+  width: 1.5em;
+  height: 1.5em;
+  fill: #007BFF;
+}
+
+.plan .price:hover {
+  color: #0056b3;
+}
+
+.plan .description {
+  margin: 10px 0;
+  color: #666;
+}
+
+.plan ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.plan ul li {
+  background: #fff;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 3px;
+  transition: background 0.3s ease, transform 0.3s ease;
+  display: flex;
+  align-items: center;
+}
+
+.plan ul li .icon {
+  margin-right: 10px;
+  width: 1.2em;
+  height: 1.2em;
+  fill: #007BFF;
+}
+
+.plan ul li:hover {
+  background: #f0f4f8;
+  transform: translateX(5px);
+}
+
+.plan button {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.plan button:hover {
+  background: #0056b3;
+}

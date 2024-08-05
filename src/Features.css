@@ -1,0 +1,36 @@
+.features {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+    background-color: #f9f9f9;
+}
+  
+.feature-card {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 30%;
+    text-align: center;
+}
+
+.feature-card h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.feature-card p {
+    font-size: 16px;
+    color: #666;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* New styles for images */
+.feature-image {
+    width: 80%;
+    height: 400px; /* Adjust as needed */
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}

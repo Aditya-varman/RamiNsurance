@@ -1,0 +1,264 @@
+.navbar1 {
+  align-items: center;
+  margin-top: 20px;
+  margin-left: 700px;
+}
+.main{
+  background-image: -webkit-linear-gradient();
+  height: 2000px;
+}
+
+.navbar1 a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  transition: color 0.3s ease, transform 0.3s ease; /* Smooth color and transform transition */
+}
+
+.navbar1 a:hover {
+  color: #007bff;
+  transform: scale(1.1); /* Slight scale-up on hover */
+}
+
+.plainlist-image-container {
+  height: 300px;
+  width: 500px;
+  margin-left: 100px;
+  margin-top: 50px;
+  position: relative; /* Needed for sliding effect */
+  animation: slideIn 2s ease-out forwards; /* Animation properties */
+  border: 2px solid #007bff; /* Add border */
+  border-radius: 15px; /* Rounded corners */
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.plainlist-description {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin-left: 100px;
+  margin-top: 100px;
+  animation: fadeIn 1.5s ease-in; /* Fade in effect */
+  color: #333; /* Text color */
+  background-color: #f9f9f9; /* Background color */
+  border: 2px solid #007bff; /* Add border */
+
+  padding: 20px; /* Padding */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.plainlist-why-us-container {
+  display: flex;
+  animation: fadeIn 2s ease-in; /* Fade in effect for the container */
+}
+
+.plan-list {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+  animation: fadeInUp 1.5s ease-in-out; /* Fade in up effect */
+}
+
+@keyframes fadeInUp {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.plan-details {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  z-index: 1000;
+  width: 80%;
+  max-width: 500px;
+  text-align: left;
+  animation: fadeIn 1s ease-in; /* Fade in effect */
+  border: 2px solid #007bff; /* Add border */
+  
+}
+
+.insurance-info {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin-top: 100px;
+  animation: fadeIn 1.5s ease-in; /* Fade in effect */
+  color: #333; /* Text color */
+  background-color: #f9f9f9; /* Background color */
+  padding: 20px; /* Padding */
+  border: 2px solid #007bff; /* Add border */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
+
+.plan-details h2 {
+  margin-top: 0;
+  color: #007bff; /* Text color */
+}
+
+.plan-details button {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.3s ease; /* Smooth background and transform transition */
+}
+
+.plan-details button:hover {
+  background: #0056b3;
+  transform: scale(1.1); /* Scale-up effect on hover */
+}
+
+.plainlist-header {
+  padding-left: 90px;
+  color: transparent;
+  -webkit-text-stroke: 1.5px #007bff;
+  font-size: 4rem;
+  font-weight: bold;
+  white-space: nowrap;
+  transition: color 0.5s, transform 0.5s; /* Smooth color and transform transition */
+}
+
+.plainlist-header:hover {
+  cursor: pointer;
+  color: white;
+  transform: scale(1.1); /* Scale-up effect on hover */
+}
+
+.plainlist-image-container {
+  display: flex;
+  flex-direction: column;
+  animation: slideIn 1s ease-out forwards; /* Sliding in effect */
+}
+
+.navbar2 {
+  background-color: #333;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+.navbar2 h3 {
+  margin: 0;
+}
+
+.navbar2 p {
+  margin: 0.5rem 0 0 0;
+  font-size: 1rem;
+}
+/* PlanList.css */
+
+.faq-section {
+  padding: 20px 100px;
+  background: #f9f9f9;
+  margin-top: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.faq-section h2 {
+  margin-bottom: 20px;
+  color: #007bff;
+}
+
+.faq {
+  margin-bottom: 15px;
+}
+
+.faq h4 {
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #333;
+}
+
+.faq p {
+  margin: 0;
+  color: #555;
+}
+
+.testimonials-section {
+  padding: 20px 100px;
+  background: #fff;
+  margin-top: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.testimonials-section h2 {
+  margin-bottom: 20px;
+  color: #007bff;
+}
+
+.testimonial {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.testimonial-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.cta-section {
+  padding: 20px 100px;
+  background: #007bff;
+  color: white;
+  margin-top: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.cta-section h2 {
+  margin-bottom: 20px;
+}
+
+.cta-btn {
+  background: white;
+  color: #007bff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.cta-btn:hover {
+  background: #e6e6e6;
+}
+

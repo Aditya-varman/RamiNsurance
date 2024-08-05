@@ -1,0 +1,160 @@
+:root {
+  --primary-color: #17153B; /* Dark Blue */
+  --secondary-color: #2E236C; /* Purple */
+  --accent-color: #433D8B; /* Lavender */
+  --background-color: #F5F5F5; /* Light Gray */
+  --text-color: #C8ACD6; /* Light Purple */
+  --white: #FFFFFF;
+  --gray: #F5F5F5; /* Light Gray */
+  --gray-2: #757575; /* Medium Gray */
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+  font-family: 'Poppins', sans-serif;
+}
+
+.homepage {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow: auto;
+  background-color: var(--background-color);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background: var(--white); /* Keep navigation bar background white */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.logo img {
+  height: 50px;
+  margin-right: 10px;
+  width: 150px;
+}
+
+.navbar a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: var(--primary-color); /* Dark Blue for navbar links */
+  font-weight: 500;
+}
+
+.navbar a:hover {
+  color: var(--accent-color); /* Lavender on hover */
+}
+
+.quote-btn {
+  background-color: var(--accent-color); /* Lavender */
+  color: var(--white);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.quote-btn:hover {
+  background-color: var(--secondary-color); /* Purple on hover */
+}
+
+.banner-section {
+  flex: 1;
+  position: relative;
+  width: 100%;
+}
+
+.slick-slider {
+  height: 100%;
+}
+
+.slick-list,
+.slick-track,
+.slick-slide {
+  height: 100%;
+}
+
+.banner {
+  width: 100%;
+  height: calc(100vh - 80px); /* Full viewport height minus header height */
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  background-size: cover; /* Ensures the image covers the entire section */
+  background-position: center;
+  margin: 0; /* Ensures no margin is applied */
+  padding: 0; /* Ensures no padding is applied */
+}
+
+.banner:nth-child(1) {
+  background: url('bg5.avif') no-repeat center center;
+}
+
+.banner:nth-child(2) {
+  background: url('bg5.avif') no-repeat center center;
+}
+
+.banner:nth-child(3) {
+  background: url('bg5.avif') no-repeat center center;
+}
+
+.banner-content {
+  max-width: 600px;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.8); /* Light background for better text readability */
+  border-radius: 10px;
+  color: var(--gray-2); /* Medium Gray for text */
+  text-align: left;
+}
+
+.banner-content h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: var(--primary-color); /* Dark Blue for headings */
+}
+
+.banner-content p {
+  font-size: 18px;
+  margin-bottom: 30px;
+  color: var(--gray-2); /* Medium Gray for paragraph text */
+}
+
+.explore-btn {
+  background: var(--accent-color); /* Lavender */
+  color: var(--white);
+  border: none;
+  padding: 15px 30px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.explore-btn:hover {
+  background: var(--secondary-color); /* Purple on hover */
+}
+
+.text {
+  text-align: center;
+  padding: 20px;
+  color: #FFFFFF;
+}
+.test {
+  text-align: center;
+  padding: 20px;
+  color: #0f56e5;
+}
+/* Ensure the Features and Footer components fit well within the scrollable container */
+.homepage .Features, .homepage .Footer {
+  flex-shrink: 0;
+}

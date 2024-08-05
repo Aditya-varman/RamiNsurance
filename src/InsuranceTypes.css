@@ -1,0 +1,109 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+    font-family: 'Poppins', sans-serif;
+    background-color: #001f3f; /* Navy blue background */
+    color: #fff; /* Default text color */
+  }
+  
+  .insurance-types-page {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow: auto;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background: #f9f9f9; /* Match background color */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+  }
+  
+  .logo img {
+    height: 50px;
+    margin-right: 10px;
+    width: 150px;
+  }
+  
+  .navbar a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #021526; /* Light color for contrast */
+    font-weight: 500;
+  }
+  
+  .navbar a:hover {
+    color: #ffd700; /* Gold color on hover */
+  }
+  
+  .content {
+    text-align: center;
+    padding: 50px;
+    color: #f9f9f9; /* Light color for text */
+  }
+  
+  .content h1 {
+    font-size: 36px;
+    margin-bottom: 30px;
+    color: #ffd700; /* Gold color for heading */
+  }
+  
+  .insurance-types {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  .insurance-card {
+    background: #003366; /* Dark blue for cards */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    color: #f9f9f9; /* Light text color */
+  }
+  
+  .insurance-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .insurance-card h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #ffd700; /* Gold color for card titles */
+  }
+  
+  .insurance-card p {
+    font-size: 16px;
+    color: #f9f9f9; /* Light color for text */
+  }
+  
+  .apply-btn {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #ffd700; /* Gold background for button */
+    color: #001f3f; /* Navy blue text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .apply-btn:hover {
+    background-color: #ffbf00; /* Darker shade of gold on hover */
+  }
+  
